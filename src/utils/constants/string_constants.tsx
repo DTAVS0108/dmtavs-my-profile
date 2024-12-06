@@ -21,5 +21,8 @@ export const string = {
     DOWNLOAD_RESUME: "Download Resume",
     DONWLOAD: "Download",
     CURRENT_LOCATION: "Current Location",
-    LIKE: "Like"
+    LIKE: "Like",
+    TIME_SLOTS: "Time Slots",
+    MEETING: "Meeting",
+    ONGOING_PROJECT: "Ongoing Project"
 }
