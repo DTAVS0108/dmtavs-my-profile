@@ -13,19 +13,11 @@ import Badge from '@mui/material/Badge';
 import { Link, useLocation } from 'react-router-dom'; 
 import { Menu as MenuIcon, Notifications as NotificationsIcon } from '@mui/icons-material';
 
-// const navigation = [
-//   { name: 'Dashboard', href: 'src/presentation/public/chatWithMe.tsx', current: true },
-//   { name: 'Team', href: '#', current: false },
-//   { name: 'Projects', href: '#', current: false },
-//   { name: 'Calendar', href: '#', current: false },
-//   { name: 'Chat With Me', href: '#', current: false },
-// ];
-
 const navigation = [
     { name: 'Dashboard', key: "dashboard", path: '/dashboard', current: true },
-    // { name: 'Team', key: "team", path: '/team', current: false  },
+    { name: 'Team', key: "team", path: '/team', current: false  },
     { name: 'Projects', key: "projects", path: '/projects', current: false  },
-    { name: 'Calendar', key: "calendar", path: '/calendar', current: false  },
+    // { name: 'Calendar', key: "calendar", path: '/calendar', current: false  },
     { name: 'Chat With Me', key: "chat-with-me", path: '/chat-with-me', current: false  },
   ];
 
